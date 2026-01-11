@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: demo-app
-          image: ${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com/${ECR_REPOSITORY}:latest
+          image: 068882397837.dkr.ecr.us-east-1.amazonaws.com/project-ci-cd-gha-argocd-ecr-repo:a81d052
           ports:
             - containerPort: 80
